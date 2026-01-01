@@ -1,4 +1,5 @@
 import { GraduationCap, Calendar, MapPin } from 'lucide-react';
+import React from 'react';
 
 const educationData = [
   {

@@ -36,7 +36,7 @@ export function Hero() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl bg-gray-200">
               <img 
-                src="https://drive.google.com/file/d/1ljIXTREhgoo6lTWW20p9TnZI9euSVcwK/view?usp=sharing"
+                src="Assets/MainImage.jpg"
                 alt="Matthew Lardieri"
                 className="w-full h-full object-cover"
                 onError={(e) => {
