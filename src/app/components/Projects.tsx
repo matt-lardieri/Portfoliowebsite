@@ -6,7 +6,7 @@ const projectsData = [
     id: 1,
     title: '1985 Caprice Wagon Restoration (Ongoing)',
     description: 'Collaborated with two peers and a university fabrication shop to restore a 1985 Chevrolet Caprice Classic Wagon. Contributed to a range of mechanical and cosmetic repairs including brake replacement, panel restoration, carpet reupholstery, and partial transmission repairs. Performed engine repairs involving welding, block stripping, and minor electrical rewiring.',
-    image: 'https://images.unsplash.com/photo-1560024254-9431c7b7724e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxjbGFzc2ljJTIwY2FyJTIwZW5naW5lfGVufDF8fHx8MTc2Njc4MjM2NHww&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'Assets/CarProject.jpg',
     technologies: ['Welding', 'Sheet Metal', 'Vehicle Research', 'Mechanical Repairs'],
     links: {
       github: '#',
@@ -17,7 +17,7 @@ const projectsData = [
     id: 2,
     title: 'Automated Cam-Follower System',
     description: 'Designed and prototyped a cam-follower system for automated lightbulb filament creation using Dynacam, MATLAB, and SolidWorks. Generated SVAJ profiles, solved boundary conditions, and built a motorized plywood prototype via laser cutting and 3D printing.',
-    image: 'https://images.unsplash.com/photo-1581092335397-9583eb92d232?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxtZWNoYW5pY2FsJTIwZW5naW5lZXJpbmclMjB0b29sc3xlbnwxfHx8fDE3NjY3ODIzNjV8MA&ixlib=rb-4.1.0&q=80&w=1080&utm_source=figma&utm_medium=referral',
+    image: 'Assets/CamFollower.jpg',
     technologies: ['SolidWorks', 'Dynacam', 'Wood Fabrication', '3D Printing', 'MATLAB','Motion Profile','Stress and Mesh Analysis','Poster Presentation'],
     links: {
       github: '#',
@@ -28,7 +28,7 @@ const projectsData = [
     id: 3,
     title: 'Linkage Design & Kinematic Analysis',
     description: 'Designed and fabricated planar linkage mechanisms in the software linkages to satisfy motion constraints (such as Grashof) and combining kinematic analysis with CAD modeling and physical prototyping.',
-    image: 'TBD',
+    image: 'Assets/Linkage.jpg',
     technologies: ['Wood Fabrication', 'SolidWorks', 'Linkages', 'Mechanical Analysis','Technical Writing'],
     links: {
       github: '#',
@@ -37,9 +37,9 @@ const projectsData = [
   },
   {
     id: 4,
-    title: 'Time-Accurate Peformance Comparison of Wing Design (Planned)',
+    title: 'Drone Project (Planned / In Progress)',
     description: 'Designed and analyzed normalized rotating blade geometries using SolidWorks Flow Simulation and structural FEA to evaluate aerodynamic performance, efficiency, and structural limits. Integrated MATLAB RK4 time-integration to model rotational dynamics and compare torque, efficiency, and safety factors across materials and operating conditions.',
-    image: 'TBD',
+    image: 'Assets/Drone.jpg',
     technologies: ['Heat Transfer', 'CFD Analysis', 'Technical Documentation'],
     links: {
       github: '#',
@@ -48,10 +48,10 @@ const projectsData = [
   },
   {
     id: 5,
-    title: 'Drone Project',
+    title: 'TBD',
     description: 'TBD.',
     image: 'TBD',
-    technologies: ['Materials Science', 'Lab Testing', 'Data Analysis', 'Report Writing'],
+    technologies: ['TBD'],
     links: {
       github: '#',
       demo: '#',
@@ -62,7 +62,7 @@ const projectsData = [
     title: 'TBD',
     description: 'TBD.',
     image: 'TBD',
-    technologies: ['FEA', 'SolidWorks Simulation', 'Structural Analysis', 'Design Optimization'],
+    technologies: ['TBD'],
     links: {
       github: '#',
       demo: '#',

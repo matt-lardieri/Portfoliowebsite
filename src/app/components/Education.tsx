@@ -1,5 +1,5 @@
-import { GraduationCap, Calendar, MapPin } from 'lucide-react';
-import React from 'react';
+import { Calendar, MapPin } from 'lucide-react';
+import { ImageWithFallback } from './figma/ImageWithFallback';
 
 const educationData = [
   {
@@ -9,6 +9,7 @@ const educationData = [
     period: 'Freshman - Sophomore Years (2023 - 2025)',
     location: 'Cleveland, OH',
     description: 'Completed foundational engineering coursework including differential calculus, modern physics, dynamics, thermodynamics, and numerical methods.',
+    logo: 'Assets/CWRU.jpg',
     achievements: [
       'GPA: 3.85/4.0',
       'Dean\'s List all semesters',
@@ -22,6 +23,7 @@ const educationData = [
     period: 'Junior - Senior Years (2025 - 2027)',
     location: 'Nashville, TN',
     description: 'Coursework includes: propulsion, fluid mechanics, mechanics, structural analysis, airplane design, gas dynamics, energetic lab, and mechatronics.',
+    logo: 'Assets/Vanderbilt_V.jpg',
     achievements: [
       'GPA: 3.5/4.0',
       'Satellite Club Member',
@@ -48,8 +50,12 @@ export function Education() {
               className="bg-gradient-to-br from-gray-100 to-gray-50 p-8 rounded-xl border border-gray-200 hover:shadow-lg transition-shadow"
             >
               <div className="flex items-start gap-4 mb-4">
-                <div className="p-3 bg-green-100 rounded-lg">
-                  <GraduationCap className="w-6 h-6 text-green-700" />
+                <div className="w-16 h-16 bg-white rounded-lg p-2 flex items-center justify-center shadow-sm">
+                  <ImageWithFallback 
+                    src={edu.logo} 
+                    alt={`${edu.school} logo`} 
+                    className="w-full h-full object-contain" 
+                  />
                 </div>
                 <div className="flex-1">
                   <h3 className="mb-2 text-gray-900">{edu.school}</h3>

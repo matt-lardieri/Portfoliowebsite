@@ -26,6 +26,9 @@ export function Header() {
             <button onClick={() => scrollToSection('education')} className="text-gray-600 hover:text-gray-900 transition-colors">
               Education
             </button>
+            <button onClick={() => scrollToSection('experience')} className="text-gray-600 hover:text-gray-900 transition-colors">
+              Experience
+            </button>
             <button onClick={() => scrollToSection('projects')} className="text-gray-600 hover:text-gray-900 transition-colors">
               Projects
             </button>
@@ -55,6 +58,9 @@ export function Header() {
               </button>
               <button onClick={() => scrollToSection('education')} className="text-gray-600 hover:text-gray-900 transition-colors text-left">
                 Education
+              </button>
+              <button onClick={() => scrollToSection('experience')} className="text-gray-600 hover:text-gray-900 transition-colors text-left">
+                Experience
               </button>
               <button onClick={() => scrollToSection('projects')} className="text-gray-600 hover:text-gray-900 transition-colors text-left">
                 Projects

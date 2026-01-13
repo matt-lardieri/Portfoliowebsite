@@ -42,9 +42,9 @@ export function Hero() {
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   if (target.src.includes('Bjqbb4R.jpg')) {
-                    target.src = 'https://drive.google.com/file/d/1ljIXTREhgoo6lTWW20p9TnZI9euSVcwK/view?usp=sharing';
+                    target.src = 'Assets/MainImage.jpg';
                   } else if (target.src.includes('Bjqbb4R.png')) {
-                    target.src = 'https://drive.google.com/file/d/1ljIXTREhgoo6lTWW20p9TnZI9euSVcwK/view?usp=sharing';
+                    target.src = 'Assets/MainImage.jpg';
                   }
                 }}
               />
