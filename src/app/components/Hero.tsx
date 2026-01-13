@@ -44,7 +44,7 @@ export function Hero() {
                   if (target.src.includes('Bjqbb4R.jpg')) {
                     target.src = 'Assets/MainImage.jpg';
                   } else if (target.src.includes('Bjqbb4R.png')) {
-                    target.src = 'Assets/MainImage.jpg';
+                    target.src = 'dist/assets/main-image.jpg';
                   }
                 }}
               />
