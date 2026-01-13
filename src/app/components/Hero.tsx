@@ -36,13 +36,13 @@ export function Hero() {
           <div className="relative">
             <div className="aspect-square rounded-2xl overflow-hidden shadow-2xl bg-gray-200">
               <img 
-                src="Assets/MainImage.jpg"
+                src="dist/assets/main-image.jpg"
                 alt="Matthew Lardieri"
                 className="w-full h-full object-cover"
                 onError={(e) => {
                   const target = e.target as HTMLImageElement;
                   if (target.src.includes('Bjqbb4R.jpg')) {
-                    target.src = 'Assets/MainImage.jpg';
+                    target.src = 'dist/assets/main-image.jpg';
                   } else if (target.src.includes('Bjqbb4R.png')) {
                     target.src = 'dist/assets/main-image.jpg';
                   }
