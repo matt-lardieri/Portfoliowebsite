@@ -38,7 +38,7 @@ const projectsData = [
   {
     id: 4,
     title: 'Satellite Vibration Response System',
-    description: 'Designed and analyzed normalized rotating blade geometries using SolidWorks Flow Simulation and structural FEA to evaluate aerodynamic performance, efficiency, and structural limits. Integrated MATLAB RK4 time-integration to model rotational dynamics and compare torque, efficiency, and safety factors across materials and operating conditions.',
+    description: 'I designed and built a 3D‑printed hexagonal satellite model that deploys and retracts theoretical solar panels using servo‑driven hinges controlled through Arduino Uno C++ code. The system includes a vibration‑inducing DC motor with an off‑center mass, a stepper‑motor‑driven rotating platform to simulate orbital motion, and integrated sensors such as a potentiometer and MCB accelerometer for monitoring acceleration and stability. An LCD module displays real‑time operational status, allowing the satellite to react to disturbances the way real spacecraft manage environmental forces. This project demonstrates how satellites sense their surroundings and autonomously adjust mechanisms to maintain stability and safety.',
     image: 'Assets/Sat.jpeg',
     technologies: ['Circuit Design', 'C++ Coding', 'FEA Analysis', 'Accelerometer', 'Mechatronics', 'Sensors', 'LCD Display', 'BLDC Motors'],
     links: {
