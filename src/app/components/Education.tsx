@@ -22,11 +22,11 @@ const educationData = [
     degree: 'Bachelor of Science in Mechanical Engineering',
     period: 'Junior - Senior Years (2025 - 2027)',
     location: 'Nashville, TN',
-    description: 'Coursework includes: propulsion, fluid mechanics, mechanics, structural analysis, airplane design, gas dynamics, energetic lab, and mechatronics.',
+    description: 'Coursework includes: heat transfer, fluid mechanics, structural analysis, airplane design, energetics, mechatronics, CFD, and FEA.',
     logo: 'Assets/Vanderbilt_V.jpg',
     achievements: [
-      'GPA: 3.5/4.0',
-      'Satellite Club Member',
+      'GPA: 3.6/4.0',
+      'ME Research Assistant',
       'ASME'
     ],
   },
