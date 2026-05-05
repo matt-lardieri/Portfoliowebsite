@@ -42,7 +42,7 @@ const experienceData = [
     period: 'May 19 - August 8',
     location: 'Portsmouth, New Hampshire',
     description: 'TBD',
-    logo: 'Assets/Hubbell.jpg',
+    logo: 'Assets/HubbellNow.jpg',
     skillsLearned: [
       'Skill 1',
       'Skill 2',
