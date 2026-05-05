@@ -50,7 +50,7 @@ const projectsData = [
     image: 'Assets/Cathe.jpg',
     technologies: ['Structural Analysis', 'Soft Fabrication', '3D Printing', 'Optical Fibers', 'Micro-Assembly'],
     links: {
-      demo: 'https://vanderbilt.box.com/s/mor9xecnjfsnf1bsh0klz9vl41xkjq3z,
+      demo: 'https://vanderbilt.box.com/s/mor9xecnjfsnf1bsh0klz9vl41xkjq3z',
     },
   },
   {
