@@ -36,7 +36,7 @@ const projectsData = [
     id: 4,
     title: 'Satellite Vibration Response System',
     description: 'I designed and built a 3D‑printed hexagonal satellite model that deploys and retracts theoretical solar panels using servo‑driven hinges controlled through Arduino Uno C++ code. The system includes a vibration‑inducing DC motor with an off‑center mass, a stepper‑motor‑driven rotating platform to simulate orbital motion, and integrated sensors such as a potentiometer and MCB accelerometer for monitoring acceleration and stability. An LCD module displays real‑time operational status, allowing the satellite to react to disturbances the way real spacecraft manage environmental forces. This project demonstrates how satellites sense their surroundings and autonomously adjust mechanisms to maintain stability and safety.',
-    image: 'Assets/Sat.jpeg',
+    image: 'Assets/Sate.jpeg',
     technologies: ['Circuit Design', 'C++ Coding', 'FEA Analysis', 'Accelerometer', 'Mechatronics', 'Sensors', 'LCD Display', 'BLDC Motors'],
     links: {
       github: 'https://github.com/matt-lardieri/Satellite-Vibration-Response-System',
@@ -47,7 +47,7 @@ const projectsData = [
     id: 5,
     title: 'Airway Sensing Catheter',
     description: ': Built a soft airway mucus cleaning catheter unit with integrated fiber optic wires for sensing and ablation and a working channel for biopsy / liquid delivery. Contributied as an assistant author to the paper "Helical‑Pump–Enabled Catheter for Efficient Airway Mucus Clearance and Tissue Biopsy".',
-    image: 'Assets/Cathe.jpeg',
+    image: 'Assets/Cathe.jpg',
     technologies: ['Structural Analysis', 'Soft Fabrication', '3D Printing', 'Optical Fibers', 'Micro-Assembly'],
     links: {
       demo: 'https://vanderbilt.box.com/s/mor9xecnjfsnf1bsh0klz9vl41xkjq3z,
