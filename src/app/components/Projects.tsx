@@ -20,8 +20,7 @@ const projectsData = [
     image: 'Assets/CamFollower.jpg',
     technologies: ['SolidWorks', 'Dynacam', 'Wood Fabrication', '3D Printing', 'MATLAB','Motion Profile','Stress and Mesh Analysis','Poster Presentation'],
     links: {
-      github: '#',
-      demo: '#',
+      demo: 'https://vanderbilt.box.com/s/9w9mria0ijx8af2ifgwzcjz04qimka1q',
     },
   },
   {
@@ -31,8 +30,6 @@ const projectsData = [
     image: 'Assets/Linkage.jpg',
     technologies: ['Wood Fabrication', 'SolidWorks', 'Linkages', 'Mechanical Analysis','Technical Writing'],
     links: {
-      github: '#',
-      demo: '#',
     },
   },
   {
@@ -42,8 +39,8 @@ const projectsData = [
     image: 'Assets/Sat.jpeg',
     technologies: ['Circuit Design', 'C++ Coding', 'FEA Analysis', 'Accelerometer', 'Mechatronics', 'Sensors', 'LCD Display', 'BLDC Motors'],
     links: {
-      github: 'Add Link To Github with Code',
-      demo: 'Add Link to Protocol and Poster',
+      github: 'https://github.com/matt-lardieri/Satellite-Vibration-Response-System',
+      demo: 'https://vanderbilt.box.com/s/ynrnelwmh3qp81ww1jkadmbgffsmsftm',
     },
   },
   {
@@ -53,8 +50,7 @@ const projectsData = [
     image: 'Assets/Cathe.jpeg',
     technologies: ['Structural Analysis', 'Soft Fabrication', '3D Printing', 'Optical Fibers', 'Micro-Assembly'],
     links: {
-      github: 'No Code, add github link',
-      demo: 'Add Protocol and 2 Powerpoint Figures',
+      demo: 'https://vanderbilt.box.com/s/mor9xecnjfsnf1bsh0klz9vl41xkjq3z,
     },
   },
   {
