@@ -13,7 +13,7 @@ export function Hero() {
               Matthew Lardieri
             </h2>
             <p className="mb-8 text-green-100">
-              I'm a mechanical engineering student with a passion to make a real impact in 
+              I'm a mechanical engineering student with a passion to make an impact in 
               the field of mechanical and aerospace engineering. I enjoy turning ideas into 
               reality by combining my hands-on manufacturing experience with CAD design to 
               build practical and creative systems.
