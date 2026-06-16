@@ -41,12 +41,14 @@ const experienceData = [
     position: 'Mechanical Hardware Engineering Intern',
     period: 'May 19 - August 8',
     location: 'Portsmouth, New Hampshire',
-    description: 'TBD',
+    description: 'I spent my internship redesigning an electric meter cover to improve passive cooling using a hydrophobic substrate system. I developed multiple concepts, collaborated with hardware and engineering teams to select the strongest design, and ran extensive CFD, solar radiation, wind, and thermal analyses. The final concept reduced internal temperatures by over 12 °C in still air and up to 22 °C with only 1 m/s of passive airflow.',
     logo: 'Assets/HubbellNow.jpg',
     skillsLearned: [
-      'Skill 1',
-      'Skill 2',
-      'Skill 3',
+      'CFD Simulation',
+      'Thermal Analysis',
+      'Testing',
+      'ANSI and UL Standards'
+      'Design Presentations',
     ],
   },
 ];
