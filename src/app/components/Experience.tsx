@@ -47,7 +47,7 @@ const experienceData = [
       'CFD Simulation',
       'Thermal Analysis',
       'Testing',
-      'ANSI and UL Standards'
+      'ANSI and UL Standards',
       'Design Presentations',
     ],
   },
